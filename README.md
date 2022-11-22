@@ -1,32 +1,27 @@
-<!--
- * @Description: 
- * @Author: KonmaMeiko
- * @Date: 2021-04-01 10:07:29
- * @lastEditTime: Do not edit
- * @LastEditors: KonmaMeiko
--->
-# umi project
+# App
 
-## Getting Started
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
-Install dependencies,
+## Development server
 
-```bash
-$ yarn
-```
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Start the dev server,
+## Code scaffolding
 
-```bash
-$ yarn start
-```
-```html
-  _____           _____                      _   _     _                _____                 _ 
- |  __ \         / ____|                    | | | |   (_)              / ____|               | |
- | |  | | ___   | (___   ___  _ __ ___   ___| |_| |__  _ _ __   __ _  | |  __  ___   ___   __| |
- | |  | |/ _ \   \___ \ / _ \| '_ ` _ \ / _ \ __| '_ \| | '_ \ / _` | | | |_ |/ _ \ / _ \ / _` |
- | |__| | (_) |  ____) | (_) | | | | | |  __/ |_| | | | | | | | (_| | | |__| | (_) | (_) | (_| |
- |_____/ \___/  |_____/ \___/|_| |_| |_|\___|\__|_| |_|_|_| |_|\__, |  \_____|\___/ \___/ \__,_|
-                                                                __/ |                           
-                                                               |___/                            
-```
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
