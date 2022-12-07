@@ -1,0 +1,31 @@
+<!--
+ * @Description:
+ * @Author: KonmaMeiko
+ * @Date: 2022-11-23 20:55:24
+ * @lastEditTime: Do not edit
+ * @LastEditors: KonmaMeiko
+-->
+<!-- 从数据源到视图 -->
+<p *ngIf="isShow">{{name}}</p>
+<!-- 数据双向绑定 -->
+<p>
+	<input type="text" [(ngModel)]="inputStr" style="margin-right: 20px;">
+	<input type="text" bindon-ngModel="inputStr">
+</p>
+<!-- 从视图到数据源 -->
+<img src="../../assets/1.jpg" width="300" (click)="setName()">
+
+<p>
+	<select [(ngModel)]="config">
+	  <option value="">请选择</option>
+	  <option value="1">蛋糕</option>
+	  <option value="2">炸鸡</option>
+	  <option value="3">布丁</option>
+	</select>
+</p>
+<div [ngSwitch]="config">
+	<p *ngSwitchCase="'1'">这个好吃</p>
+	<p *ngSwitchCase="'2'">这个也好吃</p>
+	<p *ngSwitchCase="'3'">这个也不错</p>
+	<p *ngSwitchDefault>别吃别吃</p>
+</div>
